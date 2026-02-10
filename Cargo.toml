@@ -1,0 +1,12 @@
+[package]
+name = "merkle_poseidon_root_ecdsa"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+k256 = { version = "0.13.4", features = ["ecdsa"] }
+rand = "0.8.0"   # for random secret generation
+ark-bn254 = "0.5.0"
+ark-ff = "0.5.0"
+light-poseidon = { version = "0.4.0" }
+zerocopy = "0.8.33"
